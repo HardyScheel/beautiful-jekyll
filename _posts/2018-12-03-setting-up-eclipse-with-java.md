@@ -2,7 +2,6 @@
 layout: post
 title: git: setting up eclipse for java
 tags: [eclipse]
-image: /img/eclipse-logo.png
 ---
 
 A summary of recommendations and tips of how to set up your Eclipse IDE the right way.
