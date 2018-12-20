@@ -28,7 +28,7 @@ Get a quick overview of relevant git commands for your daily work.
 
 ### change the user for a repository
 Git uses a hierarchical configuration of multiple levels. Settings in higher levels override values in lower levels. Lower levels inherit from higher levels (eg. local inherits from global).
-- system - Settings for all users of the system are stored in git installation folder: <git folder>/etc/gitconfig
+- system - Settings for all users of the system are stored in git installation folder: your git installation folder/etc/gitconfig
 - global - Settings for the current user are stored locally in your user home directory: ~/.gitconfig
 - local - The current repository settings are stored locally in the repository directory: .git/config
 
