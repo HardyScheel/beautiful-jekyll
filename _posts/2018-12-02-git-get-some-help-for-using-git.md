@@ -1,6 +1,6 @@
 ---
 layout: post
-title: git: get some help for using git
+title: get some help for using git
 tags: [git, GitHub]
 image: /img/git-logo.png
 ---
