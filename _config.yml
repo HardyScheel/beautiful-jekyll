@@ -23,7 +23,7 @@ description: a personal blog about computer science and coding
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: "https://hardyscheel.github.io"
+  Blog: "index"
   Resources:
     - my GitHub repository: "https://github.com/hardyscheel"
   Search by Tags: "tags"
