@@ -1,14 +1,12 @@
 ---
 layout: post
-title: git - get some help for using git
+title: git: get some help for using git
 subtitle: ressources for git & and solving problems for git
-tags: [git, github]
+tags: [git, GitHub]
 image: /img/git_logo_2.png
 ---
 
 A collection of ressources for getting started for git and for solving problems with git.
-
-# git for command line (gitcli)
 
 ## Tutorials
 Get to know git as a version control system.
@@ -27,20 +25,22 @@ Get a quick overview of relevant git commands for your daily work.
 ## Solving Problems
 - [Setting up multiple GitHub accounts on Windows](http://www.kevinpelgrims.com/blog/2012/07/20/setting-up-multiple-github-accounts-on-windows/)
 
-# FAQ
+## FAQ
 
-## change the user for a repo
+### change the user for a repo
 Git uses a hierarchical configuration of multiple levels. Settings in higher levels override values in lower levels. Lower levels inherit from higher levels (eg. local from global).
 - system - Settings for all users of the system are stored in git installation folder: <git folder>/etc/gitconfig
 - global - Settings for the current user are stored locally in your user home directory: ~/.gitconfig
 - local - The current repository settings are stored locally in the repository directory: .git/config
 
 You can configure an individual repo to use a specific user which overrides the global configuration. From the root directory of the repo, run the following on command line:
-
+~~~
 $ git config user.name "YOUR NAME"
 $ git config user.email your@email.com
+~~~
 
 The default user for all repos is configured in the global configuration file in your home directory ~/.gitconfig. You can also run the following from command line:
-
+~~~
 $ git config --global user.name "YOUR NAME"
 $ git config --global user.email your@email.com
+~~~
