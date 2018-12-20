@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Hardy Scheel Blog - about software development, programming and computer science
+title: Hardy Scheel Blog
 
 # Short description of your site
-description: a personal blog about computer science and coding
+description: about software development, programming and computer science
 
 # --- Navigation bar options --- #
 
