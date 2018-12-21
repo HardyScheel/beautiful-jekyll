@@ -1,6 +1,6 @@
 ---
 layout: post
-title: setting up eclipse for java
+title: Setting up eclipse for java
 tags: [eclipse, java]
 image: /img/eclipse-logo-256.png
 ---

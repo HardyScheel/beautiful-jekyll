@@ -1,14 +1,11 @@
-# hardyscheel.github.io
-
-This is the source code of the theme for my personal blog (hardyscheel.github.io) hosted at GitHub Pages. Based on a the theme [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll) by Dean Attali. My basic idea was to build a reusable component based blog. The same idea Dean had. So I can start learning following this concept by examining his work.
+This is the source code of the theme for my personal blog at [hardyscheel.de](https://hardyscheel.de) hosted at GitHub Pages. Based on a the theme [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll) by Dean Attali. My basic idea was to build a reusable component based blog. The same idea Dean had. So I can start learning following this concept by examining his work.
 Feel free to use my theme or get even more help and introduction to run your own blog on GitHub Pages at [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll) from Dean.
 
 I extended and customized the [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll) template to my own needs. In the meanwhile I learn to build my own templates with the concept of reusable components in mind.
 
-To run this blog at hardyscheel.github.io the following software components are involved:
+To run this blog at hardyscheel.de the following software components are involved:
 - [*Jekyll*](https://jekyllrb.com/) - A static website generator especially useful for blogs written in Ruby. Served by GitHub Pages for free.
 - [*Bootstrap*](http://getbootstrap.com/) & [*jQuery*](https://jquery.com/) - For building some layout and gui components.
-- *Yaml* -
 
 ### Table of contents
 - [Jekylls role as a static site generator](#Jekylls-role-as-a-static-site-generator)
