@@ -1,17 +1,23 @@
 ---
 layout: post
 title: setting up eclipse for java
-tags: [eclipse]
+tags: [eclipse, java]
 image: /img/eclipse-logo-256.png
 ---
 
 A summary of recommendations and tips of how to set up your Eclipse IDE the right way.
 
+### Table of contents
+- [Add JRE api documentation and source code to use it within Eclipse](#Add-JRE-api-documentation-and-source-code-to-use-it-within-Eclipse)
+- [Add JavaFX api documentation and source code to use it within Eclipse](#Add-JavaFX-api-documentation-and-source-code-to-use-it-within-Eclipse)
+
+---
+
 Eclipse uses its own integrated Java compiler. You do not need to set up a JDK for Eclipse. It is only neccessary to set up a Java JRE to run applications you write.
 
 Every Eclipse workspace needs its own settings. Projects in this workspace inherit these workspace settings. But you can set up every procject on its own.
 
-## Add Java api documentation and source code to use it within Eclipse
+## Add JRE api documentation and source code to use it within Eclipse
 
 To have a look at the original JRE library source code and to quick access the javadoc documentation of the JRE libraries do the following steps.
 
@@ -38,6 +44,8 @@ Now lets attach the source code to this libraries.
 My JRE api source code archive is within my workspace.
 
 ![eclipse-jre-doc-sources-6][eclipse-jre-doc-sources-6]
+
+---
 
 ## Add JavaFX api documentation and source code to use it within Eclipse
 
@@ -67,3 +75,5 @@ Choose the path to your JavaFX source archive. Mine is, again, within my workspa
 [eclipse-jre-doc-sources-8]: /img/eclipse-jre-doc-sources-8.png "Choose the JavaFX api doc archive and navigate to the folder api. Then validate to make sure everything works fine."
 [eclipse-jre-doc-sources-9]: /img/eclipse-jre-doc-sources-9.png "At last select source attachment to add the JavaFX source archive."
 [eclipse-jre-doc-sources-10]: /img/eclipse-jre-doc-sources-10.png "Choose the path to your JavaFX source archive. Mine is, again, within my workspace in a special project called JavaSE8 ressources."
+
+---
