@@ -2,7 +2,7 @@
 layout: post
 title: Get some help for using git
 tags: [git, GitHub]
-image: /img/git-logo.png
+image: /img/git-logo-256.png
 ---
 
 A collection of ressources for getting started for git and for solving problems with git.
