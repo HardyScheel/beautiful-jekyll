@@ -52,5 +52,3 @@ The default user for all repositories is configured in the global configuration 
 $ git config --global user.name "your name"
 $ git config --global user.email your@email.com
 ~~~
-
----

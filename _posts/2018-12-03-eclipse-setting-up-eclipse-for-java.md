@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up eclipse for java
+title: Setting up Eclipse for Java
 tags: [eclipse, java]
 image: /img/eclipse-logo-256.png
 ---
@@ -10,7 +10,7 @@ A summary of recommendations and tips of how to set up your Eclipse IDE the righ
 ### Table of contents
 - [Add JRE api documentation and source code to use it within Eclipse](#Add-JRE-api-documentation-and-source-code-to-use-it-within-Eclipse)
 - [Add JavaFX api documentation and source code to use it within Eclipse](#Add-JavaFX-api-documentation-and-source-code-to-use-it-within-Eclipse)
-
+- [Eclipse & the JavaFX 8 library access restriction bug](#Eclipse-&-the-JavaFX-8-library-access-restriction-bug)
 ---
 
 Eclipse uses its own integrated Java compiler. You do not need to set up a JDK for Eclipse. It is only necessary to set up a Java JRE to run applications you write.
@@ -94,25 +94,31 @@ Access restriction: The type 'Application' is not API (restriction on required l
 
 ![eclipse-javafx8-access-restriction-bug-1][eclipse-javafx8-access-restriction-bug-1]
 
-Trying to add jfxrt.jar to the Java build path doesn't help. Because it's already in there.
-Trying to loosen the severity level of the Java compiler errors/warnings doesn't help.
+Some solutions don't work:
+- Trying to add jfxrt.jar to the Java build path doesn't help. Because it's already in there.
+- Trying to loosen the severity level of the Java compiler errors/warnings doesn't help.
 
-The fastest workaround (but no solution) is to set a loosen access rule to your build path:
-- In your project properties -> Java Build Path -> Libraries: edit the 'Access rules' for your current JRE.
-- Add javafx/** as an accessible rule.
+_**Workaround:**_ The fastest workaround (but no solution) is to set a loosen access rule to your build path:
+
+In your project properties -> Java Build Path -> Libraries: edit the 'Access rules' for your current JRE.
 
 ![eclipse-javafx8-access-restriction-bug-2][eclipse-javafx8-access-restriction-bug-2]
-![eclipse-javafx8-access-restriction-bug-3][eclipse-javafx8-access-restriction-bug-3]
-![eclipse-javafx8-access-restriction-bug-4][eclipse-javafx8-access-restriction-bug-4]
 
-[eclipse-javafx8-access-restriction-bug-1]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-1.png "Eclipse error message: Access restriction: The type 'Application' is not API (restriction on required library 'C:\Program Files\Java\jre1.8.0_191\lib\ext\jfxrt.jar')"
-[eclipse-javafx8-access-restriction-bug-2]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-2.png "In your project properties -> Java Build Path -> Libraries: edit the 'Access rules' for your current JRE."
-[eclipse-javafx8-access-restriction-bug-3]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-3.png "Add javafx/** as an accessible rule."
-[eclipse-javafx8-access-restriction-bug-4]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-4.png "Add javafx/** as an accessible rule.)"
+Add javafx/** as an accessible rule.
+
+![eclipse-javafx8-access-restriction-bug-3][eclipse-javafx8-access-restriction-bug-3]
+
+After adding the accessible rule.
+
+![eclipse-javafx8-access-restriction-bug-4][eclipse-javafx8-access-restriction-bug-4]
 
 Alternate Solution: You can also use an "Alternate JRE" as system library, to loosen this restriction.
 
 ### Ressources for further reading
 
 - [Eclipse bug report: No JavaFX in JavaSE-1.8 EE](https://bugs.eclipse.org/bugs/show_bug.cgi?id=431067)
----
+
+[eclipse-javafx8-access-restriction-bug-1]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-1.png "Eclipse error message: Access restriction: The type 'Application' is not API (restriction on required library 'C:\Program Files\Java\jre1.8.0_191\lib\ext\jfxrt.jar')"
+[eclipse-javafx8-access-restriction-bug-2]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-2.png "In your project properties -> Java Build Path -> Libraries: edit the 'Access rules' for your current JRE."
+[eclipse-javafx8-access-restriction-bug-3]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-3.png "Add javafx/** as an accessible rule."
+[eclipse-javafx8-access-restriction-bug-4]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-4.png "Add javafx/** as an accessible rule.)"

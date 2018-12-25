@@ -47,5 +47,4 @@ $ docker run -v %CD%:/usr/src/app -p "4000:4000" starefossen/github-pages
 - [Docker documentation: shared drives](https://docs.docker.com/docker-for-windows/#shared-drives)
 - [Use Docker as your local environment for your GitHub Pages site](https://code.ricalo.com/docker/github-pages/GitHub-Pages-Docker/)
 - [Running Jekyll in Windows Using Docker](https://www.jamessturtevant.com/posts/Running-Jekyll-in-Windows-using-Docker/)
-- [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
----
+- [Creating and Hosting a Personal Site on GitHub](https://jmcglone.com/guides/github-pages/)
