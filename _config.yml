@@ -53,15 +53,15 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/bgimage.png"
-# footer-img: "/img/bgimage.png"
+navbar-img: "/img/bgimage.png"
+footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author:
+author: Hardy Scheel
   name: Hardy Scheel
 
 # Select your active Social Network Links.
@@ -148,7 +148,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /blog/:title/
 #permalink: /:year-:month-:day-:title/
-paginate: 10
+paginate: 5
 
 kramdown:
   input: GFM

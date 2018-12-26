@@ -1,13 +1,18 @@
 ---
 layout: post
 title: Get some help for using git
+subtitle: A collection of resources for getting started for git and for solving problems with git.
 tags: [git, GitHub]
 image: /img/git-logo-256.png
+gh-repo: hardyscheel/hardyscheel.github.io
+gh-badge: [follow]
 ---
 
-A collection of ressources for getting started for git and for solving problems with git.
+<!--
+A collection of resources for getting started for git and for solving problems with git.
+-->
 
-### Table of contents
+### Table of content
 - [Tutorials](#Tutorials)
 - [Cheat Sheets](#Cheat-Sheets)
 - [Solving Problems](#Solving-Problems)
@@ -23,6 +28,8 @@ Get to know git as a version control system.
 - [a guided tour through git fundamentals](http://gitimmersion.com)
 - [git for GitHub handbook](https://guides.github.com/introduction/git-handbook/)
 
+---
+
 ## Cheat Sheets 
 Get a quick overview of relevant git commands for your daily work.
 - [git cli cheat sheets - overview - @github.com](https://services.github.com/on-demand/resources/cheatsheets/)
@@ -30,8 +37,12 @@ Get a quick overview of relevant git commands for your daily work.
 - [git cli cheat sheets - english - @github.com](https://services.github.com/on-demand/downloads/github-git-cheat-sheet/)
 - [git cli cheat sheets - english PDF - @github.com](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
+---
+
 ## Solving Problems
 - [Setting up multiple GitHub accounts on Windows](http://www.kevinpelgrims.com/blog/2012/07/20/setting-up-multiple-github-accounts-on-windows/)
+
+---
 
 ## FAQ
 
