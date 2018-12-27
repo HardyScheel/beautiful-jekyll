@@ -5,7 +5,7 @@ subtitle: A summary of recommendations and tips of how to set up your Eclipse ID
 tags: [Eclipse, Java]
 image: /img/eclipse-logo-256.png
 gh-repo: hardyscheel/hardyscheel.github.io
-gh-badge: [follow, star, watch, fork]
+gh-badge: [follow]
 ---
 
 <!--
