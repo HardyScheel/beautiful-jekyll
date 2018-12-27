@@ -8,11 +8,11 @@
             {%- assign element = site.data.SocialNetworks[curkey] -%}
             <li>
             {%- if curkey == 'rss' -%}
-              <a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="{{ element.name }}">
+              <a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="{{ element.name }}" target="_blank">
             {%- elsif curkey == 'yelp' -%}
-              <a href="https://{{ site.social-network-links[curkey] }}.yelp.com" title="{{ element.name }}">
+              <a href="https://{{ site.social-network-links[curkey] }}.yelp.com" title="{{ element.name }}" target="_blank">
             {%- else -%}
-              <a href="{{element.baseURL}}{{ site.social-network-links[curkey] }}" title="{{ element.name }}">
+              <a href="{{element.baseURL}}{{ site.social-network-links[curkey] }}" title="{{ element.name }}" target="_blank">
             {%- endif -%}
                 <span class="fa-stack fa-lg" aria-hidden="true">
                   <i class="fa fa-circle fa-stack-2x"></i>
@@ -24,8 +24,10 @@
           {%- endfor -%}
         </ul>
       <p class="copyright text-muted">
+      &copy;&nbsp;
       {{ site.author.name }}
       &nbsp;&bull;&nbsp;
+      2018&nbsp;-&nbsp;
       {{ site.time | date: '%Y' }}
 
       {% if site.url-pretty %}
@@ -45,7 +47,7 @@
           <!-- Please don't remove this, keep my open source work credited :) -->
     <p class="theme-by text-muted">
       Theme by
-      <a href="https://github.com/daattali/beautiful-jekyll">Dean Attali</a>
+      <a href="https://github.com/daattali/beautiful-jekyll" target="_blank">Dean Attali</a>
     </p>
       </div>
     </div>

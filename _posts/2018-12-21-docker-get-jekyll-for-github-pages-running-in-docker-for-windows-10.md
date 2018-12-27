@@ -46,9 +46,9 @@ $ docker run -v %CD%:/usr/src/app -p "4000:4000" starefossen/github-pages
 
 ## Resources for further reading
 
-- [Running Jekyll in Windows Using Docker](https://www.jamessturtevant.com/posts/Running-Jekyll-in-Windows-using-Docker/)
-- [Installation Docker for Windows on Windows 10](https://gerardnico.com/vm/docker/installation_windows_10)
-- [Docker documentation: shared drives](https://docs.docker.com/docker-for-windows/#shared-drives)
-- [Use Docker as your local environment for your GitHub Pages site](https://code.ricalo.com/docker/github-pages/GitHub-Pages-Docker/)
-- [Running Jekyll in Windows Using Docker](https://www.jamessturtevant.com/posts/Running-Jekyll-in-Windows-using-Docker/)
-- [Creating and Hosting a Personal Site on GitHub](https://jmcglone.com/guides/github-pages/)
+- [Running Jekyll in Windows Using Docker](https://www.jamessturtevant.com/posts/Running-Jekyll-in-Windows-using-Docker/){:target="_blank"}
+- [Installation Docker for Windows on Windows 10](https://gerardnico.com/vm/docker/installation_windows_10){:target="_blank"}
+- [Docker documentation: shared drives](https://docs.docker.com/docker-for-windows/#shared-drives){:target="_blank"}
+- [Use Docker as your local environment for your GitHub Pages site](https://code.ricalo.com/docker/github-pages/GitHub-Pages-Docker/){:target="_blank"}
+- [Running Jekyll in Windows Using Docker](https://www.jamessturtevant.com/posts/Running-Jekyll-in-Windows-using-Docker/){:target="_blank"}
+- [Creating and Hosting a Personal Site on GitHub](https://jmcglone.com/guides/github-pages/){:target="_blank"}

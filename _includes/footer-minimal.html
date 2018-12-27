@@ -1,7 +1,9 @@
 <footer class="footer-min">
   <div class="text-muted">
+	&copy;&nbsp;
 	{{ site.author.name }}
 	&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+	2018&nbsp;-&nbsp;
 	{% if page.date %}
 	  {{ page.date }}
 	{% else %}
@@ -11,6 +13,9 @@
     {% if site.url-pretty %}
     &nbsp;&nbsp;&bull;&nbsp;&nbsp;
     <a href="{{ site.url }}">{{ site.url-pretty }}</a>
-    {% endif %}	
+		{% endif %}	
+
+		&nbsp;&bull;&nbsp;
+		<a href="{{ '/sitemap' | prepend: site.baseurl }}"> Sitemap </a>
   </div>
 </footer>

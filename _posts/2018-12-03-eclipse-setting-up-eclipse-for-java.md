@@ -124,7 +124,7 @@ Alternate Solution: You can also use an "Alternate JRE" as system library, to lo
 
 ### Resources for further reading
 
-- [Eclipse bug report: No JavaFX in JavaSE-1.8 EE](https://bugs.eclipse.org/bugs/show_bug.cgi?id=431067)
+- [Eclipse bug report: No JavaFX in JavaSE-1.8 EE](https://bugs.eclipse.org/bugs/show_bug.cgi?id=431067){:target="_blank"}
 
 [eclipse-javafx8-access-restriction-bug-1]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-1.png "Eclipse error message: Access restriction: The type 'Application' is not API (restriction on required library 'C:\Program Files\Java\jre1.8.0_191\lib\ext\jfxrt.jar')"
 [eclipse-javafx8-access-restriction-bug-2]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-2.png "In your project properties -> Java Build Path -> Libraries: edit the 'Access rules' for your current JRE."
