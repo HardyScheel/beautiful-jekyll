@@ -5,16 +5,16 @@ subtitle: Run a Docker container with Jekyll. Build GitHub Pages on your local m
 tags: [Docker, Jekyll]
 image: /img/docker-logo-512.png
 gh-repo: hardyscheel/hardyscheel.github.io
-gh-badge: [star, follow]
+gh-badge: [follow]
 ---
 
 In this article I address some most common problems when working with Docker on Windows 10. Today we want to get up running Jekyll in Docker. The most common problems you encounter occur in file system path translations when using docker commands. And the second problem you may not think about is the choice of command line. Do you use cmd.exe, PowerShell or a linux command line like MSYS or Cygwin? You must take care of the path variables when using a command line.
 
 ### Table of content
 
-- [Prerequisite: activate 'Shared Drive' in Docker settings](#Prerequisite-activate-Shared-Drive-in-Docker-settings)
-- [Run a Jekyll container](#Run-a-Jekyll-container)
-- [Resources for further reading](#Resources-for-further-reading)
+- [Prerequisite: activate 'Shared Drive' in Docker settings](#prerequisite-activate-shared-drive-in-docker-settings)
+- [Run a Jekyll container](#run-a-jekyll-container)
+- [Resources for further reading](#resources-for-further-reading)
 
 ----
 

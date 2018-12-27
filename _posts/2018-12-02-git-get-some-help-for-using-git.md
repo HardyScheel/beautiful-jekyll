@@ -5,7 +5,7 @@ subtitle: A collection of resources for getting started for git and for solving 
 tags: [git, GitHub]
 image: /img/git-logo-256.png
 gh-repo: hardyscheel/hardyscheel.github.io
-gh-badge: [star, follow]
+gh-badge: [follow]
 ---
 
 <!--
@@ -13,11 +13,11 @@ A collection of resources for getting started for git and for solving problems w
 -->
 
 ### Table of content
-- [Tutorials](#Tutorials)
-- [Cheat Sheets](#Cheat-Sheets)
-- [Solving Problems](#Solving-Problems)
-- [FAQ](#FAQ)
-    - [Change the user for a repository](#Change-the-user-for-a-repository)
+- [Tutorials](#tutorials)
+- [Cheat Sheets](#cheat-sheets)
+- [Solving Problems](#solving-problems)
+- [FAQ](#faq)
+    - [Change the user for a repository](#change-the-user-for-a-repository)
 
 ----
 

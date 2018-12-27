@@ -5,7 +5,7 @@ subtitle: A summary of recommendations and tips of how to set up your Eclipse ID
 tags: [Eclipse, Java]
 image: /img/eclipse-logo-256.png
 gh-repo: hardyscheel/hardyscheel.github.io
-gh-badge: [star, follow]
+gh-badge: [follow]
 ---
 
 <!--
@@ -17,9 +17,9 @@ Eclipse uses its own integrated Java compiler. You do not need to set up a JDK f
 Every Eclipse workspace needs its own settings. Projects in this workspace inherit these workspace settings. But you can set up every procject on its own.
 
 ### Table of content
-- [Add JRE api documentation and source code to use it within Eclipse](#Add-JRE-api-documentation-and-source-code-to-use-it-within-Eclipse)
-- [Add JavaFX api documentation and source code to use it within Eclipse](#Add-JavaFX-api-documentation-and-source-code-to-use-it-within-Eclipse)
-- [Eclipse & the JavaFX 8 library access restriction bug](#Eclipse-and-the-JavaFX-8-library-access-restriction-bug)
+- [Add JRE api documentation and source code to use it within Eclipse](#add-jre-api-documentation-and-source-code-to-use-it-within-eclipse)
+- [Add JavaFX api documentation and source code to use it within Eclipse](#add-javafx-api-documentation-and-source-code-to-use-it-within-eclipse)
+- [Eclipse & the JavaFX 8 library access restriction bug](#eclipse-and-the-javafx-8-library-access-restriction-bug)
 
 ---
 
