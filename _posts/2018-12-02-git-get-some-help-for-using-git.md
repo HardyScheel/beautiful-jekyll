@@ -6,8 +6,6 @@ tags: [git, GitHub]
 image: /img/git-logo-256.png
 gh-repo: hardyscheel/hardyscheel.github.io
 gh-badge: [star, follow]
-social-share: true
-comments: true
 ---
 
 <!--
