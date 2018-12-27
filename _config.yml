@@ -24,8 +24,8 @@ description: a personal blog about software development, programming and compute
 # List of links in the navigation bar
 navbar-links:
   Blog: "index"
-  Resources:
-    - my GitHub repository: "https://github.com/hardyscheel"
+  my GitHub repository: "https://github.com/hardyscheel"
+  About Me: "aboutme"
   Search by Tags: "tags"
 
 # Image to show in the navigation bar - image must be a square (width = height)

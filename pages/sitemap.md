@@ -2,6 +2,7 @@
 layout: default
 permalink: "sitemap"
 title: Sitemap
+use-site-title: true
 show-avatar: true
 ---
 
