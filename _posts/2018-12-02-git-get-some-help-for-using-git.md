@@ -5,7 +5,7 @@ subtitle: A collection of resources for getting started for git and for solving 
 tags: [git, GitHub]
 image: /img/git-logo-256.png
 gh-repo: hardyscheel/hardyscheel.github.io
-gh-badge: [follow]
+gh-badge: [follow, star, watch, fork]
 ---
 
 <!--

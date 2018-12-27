@@ -12,7 +12,7 @@ To run this blog at hardyscheel.de the following software components and techniq
 - [Jekylls role as a static site generator](#jekylls-role-as-a-static-site-generator)
 - [Template layout](#template-layout)
     - [Available YAML Front Matter variables](#available-yaml-front-matter-variables)
-- [Prose.io as web based content authoring editor](###prose.io-as-web-based-content-authoring-editor)
+- [Prose.io as web based content authoring editor](###prose-as-web-based-content-authoring-editor)
 
 ---
 
@@ -47,6 +47,6 @@ use-site-title: (false) | true - The title of the web site is shown instead of t
 ---
 ```
 
-## Prose.io as web based content authoring editor
+## Prose as web based content authoring editor
 In combination with [Prose.io](https://prose.io/#about), a webbased content authoring environment, you can use Prose as a Markdown editor to add and edit blog posts very quickly. To use it you have to give Prose.io access to your GitHub account where the source code of your Jekyll templated blog is hosted.
 
