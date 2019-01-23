@@ -8,7 +8,7 @@ gh-repo: hardyscheel/hardyscheel.github.io
 gh-badge: [follow]
 ---
 
-In this article I address some most common problems when working with Docker on Windows 10. Today we want to get up running Jekyll in Docker. The most common problems you encounter occur in file system path translations when using docker commands. And the second problem you may not think about is the choice of command line. Do you use cmd.exe, PowerShell or a linux command line like MSYS or Cygwin? You must take care of the path variables when using a command line.
+In this article I address some most common problems when working with Docker on Windows 10. Today we want to get up running Jekyll in Docker. The most common problems you encounter occur in file system path translations when using docker commands. And the second problem you may not think about is the choice of command line. Do you use cmd.exe, PowerShell or a Linux command line like MSYS or Cygwin within Windows? You must take care of the path variables when using a command line.
 
 ### Table of content
 
@@ -22,16 +22,16 @@ In this article I address some most common problems when working with Docker on 
 
 Activate 'shared drive' to let docker containers access your hard drive. A tcp port 445 in your Windows Host firewall will be opened for communication between your Windows host (10.0.75.1) and the docker vm (10.0.75.2).
 
-From time to time it is neccessary to renew the credentials for a shared drive in docker. Espeacially when you get docker error like your host path is not accessable or other bind mount errors. To do so, simply deactivate and activate the shared drive setting.
+From time to time it is necessary to renew the credentials for a shared drive in docker. Especially when you get docker error like your host path is not accessible or other bind mount errors. To do so, simply deactivate and activate the shared drive setting.
 
-To test if you can get access to your mounted drive, you can start an alpine linux bash and navigate to your mounted smb drive C:\ like this:
+To test if you can get access to your mounted drive, you can start an alpine Linux bash and navigate to your mounted smb drive C:\ like this:
 
-To start alpine linux and bind Windows drive C:\ to alpine linux /path/ path, type in cmd.exe:
+To start alpine Linux and bind Windows drive C:\ to alpine Linux /path/ path, type in cmd.exe:
 ~~~
 $ docker run --rm -it -v C::/data alpine sh
 ~~~
 
-A bash on alpine linux starts. You can now list the content of the mounted /data/ path in your alpine linux container. It should contain your drive C:\ on your Windows host.
+A bash on alpine Linux starts. You can now list the content of the mounted /data/ path in your alpine Linux container. It should contain your drive C:\ on your Windows host.
 ~~~
 $ ls /data/
 ~~~
