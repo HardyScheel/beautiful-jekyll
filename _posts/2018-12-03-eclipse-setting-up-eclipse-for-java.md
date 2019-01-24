@@ -9,6 +9,7 @@ gh-badge: [follow]
 ---
 
 <!--
+Setting up Eclipse for Java
 A summary of recommendations and tips of how to set up your Eclipse IDE the right way.
 -->
 
@@ -27,15 +28,15 @@ Every Eclipse workspace needs its own settings. Projects in this workspace inher
 
 To have a look at the original JRE library source code and to quick access the Javadoc documentation of the JRE libraries do the following steps.
 
-Under preferences -> Java -> Installed JREs choose your JRE and click on edit.
+Under `preferences -> Java -> Installed JREs` choose your JRE and click on edit.
 
 ![eclipse-jre-doc-sources-1][eclipse-jre-doc-sources-1]
 
-Mark the highlighted libraries and click on Javadoc Location.
+Mark the highlighted libraries and click on `Javadoc Location`.
 
 ![eclipse-jre-doc-sources-2][eclipse-jre-doc-sources-2]
 
-Choose the location of the JDK-doc documentation archive file, browse within the archive to the folder called api and click validate to proof if Eclipse can find the entry point of the documentation.
+Choose the location of the JDK-doc documentation archive file, browse within the archive to the folder called `api` and click validate to proof if Eclipse can find the entry point of the documentation.
 
 ![eclipse-jre-doc-sources-3][eclipse-jre-doc-sources-3]
 
@@ -55,11 +56,11 @@ My JRE api source code archive is within my workspace.
 
 ## Add JavaFX api documentation and source code to use it within Eclipse
 
-For JavaFX do the same steps as above but only for the highlighted jfxrt.jar library.
+For JavaFX do the same steps as above but now add docs and sources for the highlighted `jfxrt.jar` library.
 
 ![eclipse-jre-doc-sources-7][eclipse-jre-doc-sources-7]
 
-Choose the JavaFX api doc archive and navigate to the folder api. Then validate to make Eclipse can find the entry point for the documentation.
+Choose the JavaFX api doc archive and navigate to the folder `api`. Then validate to make Eclipse can find the entry point for the documentation.
 
 ![eclipse-jre-doc-sources-8][eclipse-jre-doc-sources-8]
 
@@ -67,7 +68,7 @@ At last select source attachment to add the JavaFX source archive.
 
 ![eclipse-jre-doc-sources-9][eclipse-jre-doc-sources-9]
 
-Choose the path to your JavaFX source archive. Mine is, again, within my workspace in a special project called JavaSE8 resources.
+Choose the path to your JavaFX source archive. Mine is within my workspace in a special project called JavaSE8 resources.
 
 ![eclipse-jre-doc-sources-10][eclipse-jre-doc-sources-10]
 
@@ -101,18 +102,18 @@ Access restriction: The type 'Application' is not API (restriction on required l
 ![eclipse-javafx8-access-restriction-bug-1][eclipse-javafx8-access-restriction-bug-1]
 
 Some solutions don't work:
-- Trying to add jfxrt.jar to the Java build path doesn't help. Because it's already in there.
+- Trying to add `jfxrt.jar` to the Java build path doesn't help. Because it's already in there.
 - Trying to loosen the severity level of the Java compiler errors/warnings doesn't help.
 
 {: .box-note}
 **Workaround:** The fastest workaround (but no solution) is to set a loosen access rule to your build path:
 
-In your project properties -> Java Build Path -> Libraries: edit the 'Access rules' for your current JRE.
+In your `project properties -> Java Build Path -> Libraries`: edit the `'Access rules'` for your current JRE.
 
 ![eclipse-javafx8-access-restriction-bug-2][eclipse-javafx8-access-restriction-bug-2]
 
 {: .box-note}
-Add: javafx/** as an accessible rule.
+Add: `javafx/**` as an accessible rule.
 
 ![eclipse-javafx8-access-restriction-bug-3][eclipse-javafx8-access-restriction-bug-3]
 

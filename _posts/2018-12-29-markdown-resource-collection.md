@@ -9,6 +9,7 @@ gh-badge: [follow]
 ---
 
 <!--
+Markdown resource collection
 A collection of tutorials, tools and links to get to know Markdown as a markup language.
 A collection of tutorials and links for Markdown markup language.
 -->
