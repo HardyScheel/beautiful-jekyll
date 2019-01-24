@@ -10,7 +10,7 @@ show-avatar: false
 
 | <i class="fa fa-calendar" aria-hidden="true"></i> Date | <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Title | <i class="fa fa-hashtag" aria-hidden="true"></i> Tags |
 | ---- | ----- | ---- |{% for post in site.posts %}
-| {{ post.date | date: "%m/%d/%Y" }} | <a href="{{ url }}{{ post.url | remove: 'index.html' }}">{{ post.title }}</a> | {% for tag in post.tags %} <i class="fa fa-tag" aria-hidden="true"></i>{{ tag }} {% endfor %}| {% endfor %}
+| {{ post.date | date: "%Y-%m-%d" }} | <a href="{{ url }}{{ post.url | remove: 'index.html' }}">{{ post.title }}</a> | {% for tag in post.tags %} <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} {% endfor %}| {% endfor %}
 
 ### All Pages
 <ul>
