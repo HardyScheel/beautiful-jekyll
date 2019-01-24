@@ -17,19 +17,19 @@ A collection of tutorials and links for Markdown markup language.
 Markdown is a simple way to write text and format it at the same time.
 
 ## Tutorials
-- [interactive Markdown tutorial @markdowntutorial.com](http://markdowntutorial.com/)
-- [interactive Markdown tutorial @commonmark.org](https://commonmark.org/help/tutorial/)
+- [interactive Markdown tutorial @markdowntutorial.com](http://markdowntutorial.com/){:target="_blank"}
+- [interactive Markdown tutorial @commonmark.org](https://commonmark.org/help/tutorial/){:target="_blank"}
 
 ## Cheat Sheets
-- [Markdown syntax cheat sheet @github.com/adam-p](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Markdown reference quick overview @commonmark.org](https://commonmark.org/help/)
-- [Markdown quick guide @github.com](https://guides.github.com/features/mastering-markdown/)
+- [Markdown syntax cheat sheet @github.com/adam-p](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet){:target="_blank"}
+- [Markdown reference quick overview @commonmark.org](https://commonmark.org/help/){:target="_blank"}
+- [Markdown quick guide @github.com](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
 
 ## Editors
-- [StackEdit – in-browser Markdown editor](https://stackedit.io/)
+- [StackEdit – in-browser Markdown editor](https://stackedit.io/){:target="_blank"}
 
 # CommonMark
 CommonMark is a propose for an unambiguous syntax reference specification for Markdown.
-- [CommonMark website](https://commonmark.org)
-- [CommonMark specification](https://spec.commonmark.org/)
-- [GitHub Flavored Markdown Spec - based on CommonMark](https://github.github.com/gfm/)
+- [CommonMark website](https://commonmark.org){:target="_blank"}
+- [CommonMark specification](https://spec.commonmark.org/){:target="_blank"}
+- [GitHub Flavored Markdown Spec - based on CommonMark](https://github.github.com/gfm/){:target="_blank"}

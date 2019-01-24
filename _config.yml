@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Hardy Scheel Blog
+title: Hardy Scheel
 
 # Short description of your site
 description: a personal blog about software development, programming and computer science
@@ -25,7 +25,7 @@ description: a personal blog about software development, programming and compute
 navbar-links:
   Blog: "index"
   my GitHub repository: "https://github.com/hardyscheel"
-  About Me: "pages/aboutme"
+  About Me: "aboutme"
   Search by Tags: "tags"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -175,6 +175,9 @@ link-tags: true
 
 # Exclude these files from production site
 exclude:
+  - /.github
+  - .gitattributes
+  - .gitignore
   - CHANGELOG.md
   - CNAME
   - Dockerfile
