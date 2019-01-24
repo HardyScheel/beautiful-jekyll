@@ -3,7 +3,7 @@ layout: post
 title: Get Jekyll for GitHub Pages running in Docker for Windows 10
 subtitle: Run a Docker container with Jekyll. Build GitHub Pages on your local machine.
 tags: [Docker, Jekyll]
-image: /img/docker-logo-512.png
+image: /img/2018-12-21-docker-get-jekyll-for-github-pages-running-in-docker-for-windows-10/docker-logo-512.png
 gh-repo: hardyscheel/hardyscheel.github.io
 gh-badge: [follow]
 ---

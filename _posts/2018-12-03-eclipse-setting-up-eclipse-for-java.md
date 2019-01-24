@@ -3,7 +3,7 @@ layout: post
 title: Setting up Eclipse for Java
 subtitle: A summary of recommendations and tips of how to set up your Eclipse IDE the right way.
 tags: [Eclipse, Java]
-image: /img/eclipse-logo-256.png
+image: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-logo-256.png
 gh-repo: hardyscheel/hardyscheel.github.io
 gh-badge: [follow]
 ---
@@ -71,16 +71,16 @@ Choose the path to your JavaFX source archive. Mine is, again, within my workspa
 
 ![eclipse-jre-doc-sources-10][eclipse-jre-doc-sources-10]
 
-[eclipse-jre-doc-sources-1]: /img/eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-1.png "Choose your JRE and click on edit."
-[eclipse-jre-doc-sources-2]: /img/eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-2.png "Mark the highlighted libraries and click on Javadoc Location."
-[eclipse-jre-doc-sources-3]: /img/eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-3.png "Choose the location of the JDK-doc file, browse within the archive to the folder called api and click validate to proof if Eclipse can find the entry point of the documentation."
-[eclipse-jre-doc-sources-4]: /img/eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-4.png "Select the location of the JDK-doc file. Mine is within my workspace in a project called JavaSE8 resources."
-[eclipse-jre-doc-sources-5]: /img/eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-5.png "Now lets attach the source code to this libraries."
-[eclipse-jre-doc-sources-6]: /img/eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-6.png "My JRE api source code archive is within my workspace."
-[eclipse-jre-doc-sources-7]: /img/eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-7.png "For JavaFX do the same steps as above but only for the highlighted jfxrt.jar library."
-[eclipse-jre-doc-sources-8]: /img/eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-8.png "Choose the JavaFX api doc archive and navigate to the folder api. Then validate to make sure everything works fine."
-[eclipse-jre-doc-sources-9]: /img/eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-9.png "At last select source attachment to add the JavaFX source archive."
-[eclipse-jre-doc-sources-10]: /img/eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-10.png "Choose the path to your JavaFX source archive. Mine is, again, within my workspace in a special project called JavaSE8 resources."
+[eclipse-jre-doc-sources-1]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-1.png "Choose your JRE and click on edit."
+[eclipse-jre-doc-sources-2]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-2.png "Mark the highlighted libraries and click on Javadoc Location."
+[eclipse-jre-doc-sources-3]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-3.png "Choose the location of the JDK-doc file, browse within the archive to the folder called api and click validate to proof if Eclipse can find the entry point of the documentation."
+[eclipse-jre-doc-sources-4]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-4.png "Select the location of the JDK-doc file. Mine is within my workspace in a project called JavaSE8 resources."
+[eclipse-jre-doc-sources-5]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-5.png "Now lets attach the source code to this libraries."
+[eclipse-jre-doc-sources-6]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-6.png "My JRE api source code archive is within my workspace."
+[eclipse-jre-doc-sources-7]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-7.png "For JavaFX do the same steps as above but only for the highlighted jfxrt.jar library."
+[eclipse-jre-doc-sources-8]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-8.png "Choose the JavaFX api doc archive and navigate to the folder api. Then validate to make sure everything works fine."
+[eclipse-jre-doc-sources-9]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-9.png "At last select source attachment to add the JavaFX source archive."
+[eclipse-jre-doc-sources-10]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-jre-doc-sources-10.png "Choose the path to your JavaFX source archive. Mine is, again, within my workspace in a special project called JavaSE8 resources."
 
 ---
 
@@ -126,7 +126,7 @@ Alternate Solution: You can also use an "Alternate JRE" as system library, to lo
 
 - [Eclipse bug report: No JavaFX in JavaSE-1.8 EE](https://bugs.eclipse.org/bugs/show_bug.cgi?id=431067){:target="_blank"}
 
-[eclipse-javafx8-access-restriction-bug-1]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-1.png "Eclipse error message: Access restriction: The type 'Application' is not API (restriction on required library 'C:\Program Files\Java\jre1.8.0_191\lib\ext\jfxrt.jar')"
-[eclipse-javafx8-access-restriction-bug-2]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-2.png "In your project properties -> Java Build Path -> Libraries: edit the 'Access rules' for your current JRE."
-[eclipse-javafx8-access-restriction-bug-3]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-3.png "Add javafx/** as an accessible rule."
-[eclipse-javafx8-access-restriction-bug-4]: /img/eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-4.png "Add javafx/** as an accessible rule.)"
+[eclipse-javafx8-access-restriction-bug-1]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-1.png "Eclipse error message: Access restriction: The type 'Application' is not API (restriction on required library 'C:\Program Files\Java\jre1.8.0_191\lib\ext\jfxrt.jar')"
+[eclipse-javafx8-access-restriction-bug-2]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-2.png "In your project properties -> Java Build Path -> Libraries: edit the 'Access rules' for your current JRE."
+[eclipse-javafx8-access-restriction-bug-3]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-3.png "Add javafx/** as an accessible rule."
+[eclipse-javafx8-access-restriction-bug-4]: /img/2018-12-03-eclipse-setting-up-eclipse-for-java/eclipse-javafx8-access-restriction-bug-4.png "Add javafx/** as an accessible rule.)"
