@@ -19,6 +19,8 @@ title: Hardy Scheel
 # Short description of your site
 description: a personal blog about software development, programming and computer science
 
+lang: en
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
@@ -242,6 +244,7 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

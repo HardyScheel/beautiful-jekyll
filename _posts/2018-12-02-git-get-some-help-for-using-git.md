@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: de
 title: Get some help for using git
 subtitle: A collection of resources for getting started for git and for solving problems with git.
 tags: [git, GitHub]
