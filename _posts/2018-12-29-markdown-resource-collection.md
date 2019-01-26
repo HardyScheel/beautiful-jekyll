@@ -15,9 +15,10 @@ A collection of tutorials and links for Markdown markup language.
 -->
 
 # Markdown
-Markdown is a simple way to write text and format it at the same time.
+Markdown is a simple way to write, structure and format text. And all at the same time when you write the text.
 
 ## Tutorials
+- [Einführung, Syntax und Beispiele inkl. GitHub Flavored Markdown (in German)](http://markdown-syntax.de/Syntax/){:target="_blank"}
 - [interactive Markdown tutorial @markdowntutorial.com](http://markdowntutorial.com/){:target="_blank"}
 - [interactive Markdown tutorial @commonmark.org](https://commonmark.org/help/tutorial/){:target="_blank"}
 
