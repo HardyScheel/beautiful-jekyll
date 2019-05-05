@@ -14,7 +14,7 @@ Old:
 layout: page
 -->
 
-*My name is Hardy Scheel and I live in the western corner of Germany in a big town called [Cologne](https://www.google.de/maps/place/K%C3%B6ln/@50.9576191,6.8272414,47035m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47bf259169ab2fe5:0x42760fc4a2a77f0!8m2!3d50.937531!4d6.9602786){:target="_blank"} or Köln as we say.*
+*My name is Hardy Scheel and I live in the western corner of Germany in a big town called [Cologne](https://goo.gl/maps/4HdXxkBrVhZFC8uF8){:target="_blank"} or Köln as we say.*
 
 ## My favorite topics
 *I’m very interested in software development and computer science in general. Besides I've a lot of various interests that differ from time to time, like making music, playing guitar, researching in politics and history, or doing some sports.*
