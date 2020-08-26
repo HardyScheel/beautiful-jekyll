@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://hardyscheel.de"
-baseurl: ""
+url: "hardyscheel.github.io/hardyscheel.github.io.old/"
+baseurl: "hardyscheel.github.io.old"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -107,7 +107,7 @@ url-pretty: "hardyscheel.de"  # eg. "deanattali.com/beautiful-jekyll"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-131417385-1"
+#google_analytics: "UA-131417385-1"
 
 # Google Tag Manager ID
 #gtm: ""
