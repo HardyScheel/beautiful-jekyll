@@ -1,4 +1,6 @@
-This is the source code of the theme for my personal blog at [hardyscheel.de](https://hardyscheel.de) hosted at GitHub Pages. Based on the Jekyll template & theme [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll) by Dean Attali.
+!!! This website is out of order !!! This is an old version of my blog.
+
+The source code of the theme for my personal blog at [hardyscheel.de](https://hardyscheel.de) hosted at GitHub Pages. Based on the Jekyll template & theme [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll) by Dean Attali.
 If you want to try out or run your own Jekyll blog on GitHub Pages, you can get good help and introduction at [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll) from Dean.
 
 I extended and customized this Jekyll template to my own needs. My basic idea was to build a reusable component based blog. I'm fairly new to Jekyll and there is a long way to go before I can publish my own Jekyll templates and themes.
